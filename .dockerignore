@@ -1,0 +1,5 @@
+# flyctl launch added from .gitignore
+**\.bundle
+**\.sass-cache
+**\tmp
+fly.toml

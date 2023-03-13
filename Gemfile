@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.7.7'
 
 gem 'rake'
 gem 'sinatra'
 gem 'thin'
-gem 'activesupport'
+gem 'activesupport', '< 3.5.0'
 gem 'i18n' # stupid activesupport dependency
 gem 'rack-cache'
 gem 'dalli'
@@ -20,3 +20,4 @@ gem 'erubis'
 gem 'dm-postgres-adapter'
 gem 'dm-migrations'
 gem 'dm-timestamps'
+gem 'rackup'
