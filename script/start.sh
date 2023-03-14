@@ -1,5 +1,5 @@
 #!/bin/bash
-P=$PORT || 8080
+P=$PORT || P=8080
 echo "Bootup"
 # bundle install --without production
 rake bootstrap
