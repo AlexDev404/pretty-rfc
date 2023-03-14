@@ -3,7 +3,8 @@ require 'bundler'
 
 Bundler.setup
 root = ENV['APP_ROOT'] || File.expand_path('..', __FILE__)
-port = 8080 || ENV['PORT']
+set :port, 8080 || ENV['PORT']
+set :bind, '0.0.0.0'
 
 Encoding.default_external = 'utf-8'
 
@@ -11,4 +12,4 @@ Encoding.default_external = 'utf-8'
 $stdout.sync = true
 
 require File.join(root, 'app')
-run Sinatra::Application, :port => port
+run Sinatra::Application
