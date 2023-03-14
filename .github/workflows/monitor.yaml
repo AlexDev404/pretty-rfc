@@ -1,4 +1,4 @@
-name: Fly.IO Deploy
+name: Fly.IO Monitor
 
 on:
   push:
