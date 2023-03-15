@@ -3,6 +3,7 @@
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
+# PARTIAL CREDIT GOES TO: https://community.fly.io/t/issue-deploying-new-sinatra-app/11355/2
 
 FROM buildpack-deps:bullseye
 RUN mkdir /app
