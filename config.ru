@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'bundler'
+require 'rack/handler/webrick'
+require 'sinatra'
 
 Bundler.setup
 root = ENV['APP_ROOT'] || File.expand_path('..', __FILE__)
