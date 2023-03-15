@@ -164,7 +164,7 @@ require 'nokogiri'
 # Responsible for discovering and fetching of the XML source file for a
 # specific publication.
 class RfcFetcher
-  XML_URL     = 'http://xml.resource.org/public/rfc/xml/%s.xml'
+  XML_URL     = 'https://www.rfc-editor.org/in-notes/rfc%s.xml'
   DRAFTS_URL  = 'http://www.ietf.org/id/'
   TRACKER_URL = 'http://datatracker.ietf.org/doc/%s/'
 
