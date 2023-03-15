@@ -121,5 +121,4 @@ RUN chmod 777 /app/script/start.sh
 # RUN "bundle install --without production"
 EXPOSE 8080
 # CMD [ "./script/start.sh" ]
-RUN rake bootstrap
 CMD ["rackup", "--host", "0.0.0.0", "--port", "8080"]
