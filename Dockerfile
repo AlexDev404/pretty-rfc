@@ -118,4 +118,5 @@ LABEL fly_launch_runtime="ruby"
 
 RUN chmod 777 /app/script/start.sh
 # RUN "bundle install --without production"
+EXPOSE 8080
 CMD [ "./script/start.sh" ]
